@@ -1,8 +1,9 @@
 """ BASIC LINEAR REGRESSION CODE
-I wrote this to check my understanding of the basic concepts. It's pretty simple
-but I needed to get my feet wet with code.
+    Consider this my first application of what I understood about ML/DL so far.
 
-Any suggestions for modifications are welcome!
+    I wrote this to check my understanding of the basic concepts. It's pretty simple but I needed to get my feet wet with code.
+
+    Any suggestions for modifications are welcome!
 
 """
 #x and y datasets
@@ -26,4 +27,4 @@ print "Y-intercept of line:", c
 userX = float(raw_input("Enter a x value:"))
 userY = m*userX + c
 
-print "y is ",userY
+print "y is ", userY
